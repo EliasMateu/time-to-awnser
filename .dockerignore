@@ -1,0 +1,11 @@
+.git
+.gitignore
+
+log
+tmp
+coverage
+
+node_modules
+
+.bundle
+vendor/bundle
