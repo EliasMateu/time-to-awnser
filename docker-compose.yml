@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: time-to-answer
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
